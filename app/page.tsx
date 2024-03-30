@@ -6,43 +6,37 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>xNeurals -- Story Creation.&nbsp;</p>
-      </div>
-
-      <div className={styles.center}>
+        <p>Hello, Welcome to xNeurals! </p>
         <Image
           className={styles.logo}
           src={xNLogo}
           alt="xNeurals Logo"
           width={280}
-          height={67}
-          priority
-        />
-        <span>+</span>
-        <Image
-          src="/amplify.svg"
-          alt="Amplify Logo"
-          width={45}
-          height={37}
+          height={167}
           priority
         />
       </div>
-
+      <div className={styles.description}>
+        <p>
+          Our Unique Service Lets you explore Your Mental Health by Visualizing
+          Dreams!
+        </p>
+      </div>
       <div className={styles.grid}>
         <a
-          href="https://docs.amplify.aws/gen2/"
+          href="https://www.xneurals.ai/vfx-animation"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Docs <span>-&gt;</span>
+            Samples <span>-&gt;</span>
           </h2>
-          <p>Review documentation for Amplify's code-first DX (Gen 2).</p>
+          <p>Top selection from our Community of Creators</p>
         </a>
 
         <a
-          href="https://docs.amplify.aws/gen2/start/quickstart/"
+          href="https://www.xneurals.ai/vfx-animation"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
@@ -50,31 +44,31 @@ export default function Home() {
           <h2>
             Quickstart <span>-&gt;</span>
           </h2>
-          <p>Follow a tutorial to build a fullstack app with Amplify Gen 2.</p>
+          <p>Follow a tutorial to build a sample animation</p>
         </a>
 
         <a
-          href="https://docs.amplify.aws/gen2/build-a-backend/auth/set-up-auth/"
+          href="https://www.xneurals.ai/contact-3"
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Auth <span>-&gt;</span>
+            Training <span>-&gt;</span>
           </h2>
-          <p>Zero-config Auth UI components with social sign-in and MFA.</p>
+          <p>Take a 6 week course in Voice Over and AI Image Creation</p>
         </a>
 
         <a
-          href="https://docs.amplify.aws/gen2/build-a-backend/data/set-up-data/"
+          href=""
           className={styles.card}
           target="_blank"
           rel="noopener noreferrer"
         >
           <h2>
-            Data <span>-&gt;</span>
+            Team <span>-&gt;</span>
           </h2>
-          <p>Fully-typed real-time API with NoSQL database.</p>
+          <p>Get to know this World Class Team</p>
         </a>
       </div>
     </main>
