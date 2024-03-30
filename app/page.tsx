@@ -5,17 +5,17 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
-        <p>
-          We are on aboat mff..&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
+        <p>xNeurals -- Story Creation.&nbsp;</p>
+      </div>
+      <div>
+        <img src="./favicon.ico" alt="logo" />
       </div>
 
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
+          src="https://via.placeholder.com/150"
+          alt="xNeurals Logo"
           width={180}
           height={37}
           priority
