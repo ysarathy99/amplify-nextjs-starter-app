@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Blow and Behold TightAuz..&nbsp;
+          We are on aboat mff..&nbsp;
           <code className={styles.code}>app/page.tsx</code>
         </p>
       </div>
