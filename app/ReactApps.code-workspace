@@ -6,9 +6,6 @@
 		{
 			"name": "amplify-nextjs-starter-app",
 			"path": ".."
-		},
-		{
-			"path": "../../xn-react-app"
 		}
 	],
 	"settings": {}
