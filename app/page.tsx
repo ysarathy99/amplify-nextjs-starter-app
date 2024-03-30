@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import xNLogo from "./img/xNeuralsLogo.jpg";
 
 export default function Home() {
   return (
@@ -7,17 +8,14 @@ export default function Home() {
       <div className={styles.description}>
         <p>xNeurals -- Story Creation.&nbsp;</p>
       </div>
-      <div>
-        <img src="./favicon.ico" alt="logo" />
-      </div>
 
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="https://via.placeholder.com/150"
+          src={xNLogo}
           alt="xNeurals Logo"
-          width={180}
-          height={37}
+          width={280}
+          height={67}
           priority
         />
         <span>+</span>
