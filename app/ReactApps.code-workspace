@@ -6,6 +6,9 @@
 		{
 			"name": "amplify-nextjs-starter-app",
 			"path": ".."
+		},
+		{
+			"path": "../../../Documents/xn/xneurals-rocks"
 		}
 	],
 	"settings": {}
